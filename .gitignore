@@ -1,6 +1,11 @@
-*.ckpt
-*.pt
-*.pth
-**cache**
-**__pycache__**
-**__ds_store**
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
