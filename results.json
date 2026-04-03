@@ -1,6 +1,6 @@
 {
   "test_link": {
-    "link": null
+    "link": "https://github.com/NLP-Reichman/assignment-1-n-gram-models-tom_and_liron"
   },
   "test_preprocess": {
     "vocab_length": 1804
@@ -17,5 +17,13 @@
     "en_on_tl": 70.59,
     "en_on_nl": 61.41
   },
-  "test_generate": "NameError(\"name 'random' is not defined\")\nTraceback (most recent call last):\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2957777135.py\", line 48, in <module>\n    cur_res = test()\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2957777135.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2659725398.py\", line 12, in generate\n    random.seed(r)\n    ^^^^^^\nNameError: name 'random' is not defined. Did you forget to import 'random'?\n"
+  "test_generate": {
+    "english_2_gram": "ell1Gige omyo & he't",
+    "english_3_gram": "ebompirs ans appree ",
+    "english_4_gram": "r. Zo Are froming #M",
+    "spanish_2_gram": " ' Dusos qups  en ce",
+    "spanish_3_gram": " ensanta oto el 200 ",
+    "french_2_gram": " jeitpu s a male s:/",
+    "french_3_gram": "treil Her lon in vs "
+  }
 }
