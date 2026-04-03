@@ -1,0 +1,21 @@
+{
+  "test_link": {
+    "link": null
+  },
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_build_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_on_en": 26.74,
+    "en_on_fr": 58.49,
+    "en_on_tl": 70.59,
+    "en_on_nl": 61.41
+  },
+  "test_generate": "NameError(\"name 'random' is not defined\")\nTraceback (most recent call last):\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2957777135.py\", line 48, in <module>\n    cur_res = test()\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2957777135.py\", line 33, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/folders/ll/v5bxr2ws09q2r0s1v5yg95380000gn/T/ipykernel_15845/2659725398.py\", line 12, in generate\n    random.seed(r)\n    ^^^^^^\nNameError: name 'random' is not defined. Did you forget to import 'random'?\n"
+}
