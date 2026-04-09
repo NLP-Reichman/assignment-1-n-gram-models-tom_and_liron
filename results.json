@@ -1,6 +1,6 @@
 {
   "test_link": {
-    "link": "https://colab.research.google.com/drive/1SrIivYiF7aksYU5gz7DojgxS_6kHTxra?usp=sharing"
+    "link": "https://github.com/NLP-Reichman/assignment-1-n-gram-models-tom_and_liron"
   },
   "test_preprocess": {
     "vocab_length": 1804
@@ -12,10 +12,10 @@
     "spanish_3_gram_length": 8469
   },
   "test_eval": {
-    "en_on_en": 26.74,
-    "en_on_fr": 58.49,
-    "en_on_tl": 70.59,
-    "en_on_nl": 61.41
+    "en_on_en": 26.73,
+    "en_on_fr": 58.47,
+    "en_on_tl": 70.57,
+    "en_on_nl": 61.39
   },
   "test_generate": {
     "english_2_gram": "I amell1Gige omyo & he't",
